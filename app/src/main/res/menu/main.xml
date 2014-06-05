@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cat.ejoy.mtgcounter.app.MainActivity" >
+    <item android:id="@+id/menu_dice"
+        android:title="@string/dice"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_coin"
+        android:title="@string/coin"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_reset"
+        android:title="@string/reset"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_about"
+        android:title="@string/about"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_exit"
+        android:title="@string/exit"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+</menu>

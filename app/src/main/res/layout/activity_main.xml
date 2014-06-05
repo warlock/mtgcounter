@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:keepScreenOn="true"
+    tools:context="cat.ejoy.mtgcounter.app.MainActivity">
+ <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight="50">
+         <LinearLayout
+             android:layout_gravity="center_vertical"
+             android:orientation="vertical"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content">
+             <Button
+                 android:id="@+id/btnlP1a1"
+                 android:text="@string/la1"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:id="@+id/btnlP1a5"
+                 android:text="@string/la5"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:id="@+id/btnpP1a1"
+                 android:text="@string/pa1"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:id="@+id/btnpP1a5"
+                 android:text="@string/pa5"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+         <LinearLayout
+             android:layout_marginLeft="5dp"
+             android:layout_below="@+id/LL2"
+             android:id="@+id/LL3"
+             android:orientation="vertical"
+             android:gravity="center_vertical"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+             <TextView
+                 android:layout_gravity="center_horizontal"
+                 android:id="@+id/player1"
+                 android:text="@string/firstp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+             <Button
+                 android:background="#ff004419"
+                 android:id="@+id/lifeP1"
+                 android:text="@string/playerlife"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:layout_marginTop="10dp"
+                 android:background="#ff51007b"
+                 android:id="@+id/poisonP1"
+                 android:text="@string/playerpoison"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight="50">
+         <LinearLayout
+             android:layout_gravity="center_vertical"
+             android:orientation="vertical"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content">
+
+             <Button
+                 android:id="@+id/btnlP2a1"
+                 android:text="@string/la1"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:id="@+id/btnlP2a5"
+                 android:text="@string/la5"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:id="@+id/btnpP2a1"
+                 android:text="@string/pa1"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:id="@+id/btnpP2a5"
+                 android:text="@string/pa5"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+         <LinearLayout
+             android:layout_marginLeft="5dp"
+             android:orientation="vertical"
+             android:gravity="center_vertical"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+             <TextView
+                 android:layout_gravity="center_horizontal"
+                 android:id="@+id/player2"
+                 android:text="@string/secondp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+             <Button
+                 android:background="#ff004419"
+                 android:id="@+id/lifeP2"
+                 android:text="@string/playerlife"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:layout_marginTop="10dp"
+                 android:background="#ff51007b"
+                 android:id="@+id/poisonP2"
+                 android:text="@string/playerpoison"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+     </LinearLayout>
+ </LinearLayout>
+</RelativeLayout>

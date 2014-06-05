@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MTG Counter</string>
+    <string name="app_title">Contador</string>
+    <string name="reset">Reset</string>
+    <string name="dice">Dado</string>
+    <string name="coin">Moneda</string>
+    <string name="about">Sobre</string>
+    <string name="exit">Salir</string>
+    <string name="firstp">Primer jugador</string>
+    <string name="secondp">Segundo jugador</string>
+    <string name="la1">+1 vida</string>
+    <string name="la5">+5 vida</string>
+    <string name="pa1">-1 veneno</string>
+    <string name="pa5">-5 veneno</string>
+    <string name="playerlife">20 vida</string>
+    <string name="playerpoison">0 veneno</string>
+    <string name="poison">veneno</string>
+    <string name="life">vida</string>
+    <string name="win">: Has ganado!</string>
+    <string name="lose">: Has perdido!</string>
+    <string name="heads">Cara</string>
+    <string name="tails">Cruz</string>
+    <string name="credits">MTG Counter 1.0\neJoy Development\nhttp://www.ejoy.es</string>
+
+
+
+</resources>
