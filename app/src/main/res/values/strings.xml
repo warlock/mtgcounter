@@ -22,7 +22,7 @@
     <string name="lose">: You lose!</string>
     <string name="heads">Heads</string>
     <string name="tails">Tails</string>
-    <string name="credits">MTG Counter 1.0\neJoy Development\nhttp://www.ejoy.es</string>
+    <string name="credits">MTG Counter 1.0\nCrontex Development\nhttp://www.crontex.com</string>
 
 
 </resources>
